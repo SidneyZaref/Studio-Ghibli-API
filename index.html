@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Something to hold our JavaScript</title>
+    </head>
+    <body>
+        <p>Name:</p>
+        <input type="text" id="nameBox"></input>
+       
+        <br><br>
+
+        <input type="radio" name="trimLevel" id="eco">Economy</input>
+        <input type="radio" name="trimLevel" id="lux">Luxury</input>
+        <br><br>
+        <input type="checkbox" id="mustard" value="mustard">Mustard</input>
+        <input type="checkbox" id="mayo" value="mayo">Mayo</input>
+        <input type="checkbox" id="pickles" value="pickles">Pickles</input>
+        <br><br>
+        <button onclick="testForPickles();">Pickles Test</button>
+
+
+
+        <p id="outputfield"></p>
+        <div id="main"></div>
+
+        <select id="things">
+            <option>Thing 1</option>
+            <option>Thing 2</option>
+        </select>
+
+        <br><br>
+
+        <select id="carList" onchange="getItemSelected();"></select>
+
+        <br><br>
+
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+        </ul>
+
+
+
+        <button onclick= "sayHello();">Say Hello!</button><br>
+        <button onclick="addGreeting();">Add Greeting</button><br>
+
+         <!-- <p>Address:</p>
+        <input type="text" id="addressBox"></input>
+        <p id="outputaddress"></p> -->
+
+        <!-- <p>Phone Number:</p>
+        <input type="text" id="phoneNumber"></input>
+        <p id="outputphone"></p> -->
+
+
+
+        <script src = "script.js" defer></script>
+    </body>
+</html>
